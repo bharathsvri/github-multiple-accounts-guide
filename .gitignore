@@ -1,0 +1,44 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Windows temporary files
+*.tmp
+*.temp
+*.bak
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+
+# JetBrains IDEs
+.idea/
+
+# Log files
+*.log
+
+# Environment and secrets files
+.env
+.env.*
+!.env.example
+
+# Private SSH keys and credentials
+id_rsa
+id_ed25519
+id_ecdsa
+*.pem
+*.key
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Build and dependency directories
+node_modules/
+dist/
+build/
